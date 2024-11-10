@@ -13,6 +13,8 @@
 		0231F5412CE154CA00E02307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0231F53F2CE154CA00E02307 /* Main.storyboard */; };
 		0231F5432CE154CB00E02307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0231F5422CE154CB00E02307 /* Assets.xcassets */; };
 		0231F5462CE154CB00E02307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0231F5442CE154CB00E02307 /* LaunchScreen.storyboard */; };
+		0231F54E2CE1594300E02307 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231F54D2CE1594300E02307 /* EntryViewController.swift */; };
+		0231F5502CE1596E00E02307 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0231F54F2CE1596E00E02307 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0231F5422CE154CB00E02307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0231F5452CE154CB00E02307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0231F5472CE154CB00E02307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0231F54D2CE1594300E02307 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		0231F54F2CE1596E00E02307 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				0231F5392CE154CA00E02307 /* AppDelegate.swift */,
 				0231F53B2CE154CA00E02307 /* SceneDelegate.swift */,
 				0231F53D2CE154CA00E02307 /* ViewController.swift */,
+				0231F54D2CE1594300E02307 /* EntryViewController.swift */,
+				0231F54F2CE1596E00E02307 /* TaskViewController.swift */,
 				0231F53F2CE154CA00E02307 /* Main.storyboard */,
 				0231F5422CE154CB00E02307 /* Assets.xcassets */,
 				0231F5442CE154CB00E02307 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0231F53E2CE154CA00E02307 /* ViewController.swift in Sources */,
+				0231F54E2CE1594300E02307 /* EntryViewController.swift in Sources */,
+				0231F5502CE1596E00E02307 /* TaskViewController.swift in Sources */,
 				0231F53A2CE154CA00E02307 /* AppDelegate.swift in Sources */,
 				0231F53C2CE154CA00E02307 /* SceneDelegate.swift in Sources */,
 			);
