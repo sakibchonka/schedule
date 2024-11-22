@@ -9,13 +9,17 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                xcodebuild -workspace schedule.xcworkspace \
-                           -scheme schedule \
-                           -sdk iphonesimulator \
-			   CODE_SIGNING_ALLOWED=NO \
-			   CODE_SIGNING_REQUIRED=NO \
-			   PROVISIONING_PROFILE_SPECIFIER="" \
-                           build
+                xcodebuild build \
+    			-workspace schedule.xcworkspace \
+    			-scheme schedule \
+    			-sdk iphonesimulator \
+    			CODE_SIGN_STYLE=Manual \
+    			CODE_SIGN_IDENTITY="" \
+   			DEVELOPMENT_TEAM="" \
+    			CODE_SIGNING_ALLOWED=NO \
+    			CODE_SIGNING_REQUIRED=NO \
+    			PROVISIONING_PROFILE_SPECIFIER=""
+
                 '''
             }
         }
