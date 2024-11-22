@@ -11,7 +11,8 @@ pipeline {
                 sh '''
                 xcodebuild -workspace schedule.xcworkspace \
                            -scheme schedule \
-                           -sdk iphoneos \
+                           -sdk iphonesimulator \
+			   CODE_SIGNING_ALLOWED=NO \
                            build
                 '''
             }
