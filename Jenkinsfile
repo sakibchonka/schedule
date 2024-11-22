@@ -14,6 +14,7 @@ pipeline {
                            -sdk iphonesimulator \
 			   CODE_SIGNING_ALLOWED=NO \
 			   CODE_SIGNING_REQUIRED=NO \
+			   PROVISIONING_PROFILE_SPECIFIER="" \
                            build
                 '''
             }
