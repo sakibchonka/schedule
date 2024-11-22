@@ -13,6 +13,7 @@ pipeline {
                            -scheme schedule \
                            -sdk iphonesimulator \
 			   CODE_SIGNING_ALLOWED=NO \
+			   CODE_SIGNING_REQUIRED=NO \
                            build
                 '''
             }
